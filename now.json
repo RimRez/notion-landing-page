@@ -1,0 +1,8 @@
+{
+  "name": "notion-landing-page",
+  "version": 2,
+  "builds": [
+    { "src": "image.js", "use": "@now/node" },
+    { "src": "package.json", "use": "@now/next" }
+  ]
+}
